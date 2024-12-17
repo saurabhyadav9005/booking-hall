@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+.footer-common{
+    color: #fff;
+}
+
+.social-links{
+    margin: 0;
+    li{
+        list-style: none;
+
+        a{
+            padding: 5px 10px;
+            color: #fff;
+            display: block;
+        }
+    }
+}
+
+.main-container{
+    height: calc(100vh - 80px);
+}
+
+.main-container.auto{
+    height: auto;
+}
+
+form{
+    label{
+        font-size: 13px;
+    }
+}
+
+.form-center-search{
+    width:90%;
+    margin: 0 auto;
+    border:1px solid #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
